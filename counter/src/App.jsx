@@ -19,10 +19,13 @@ const DncNum = ()=>{
   return (
     <>
     <h1 className="heading">Hello I am Counter</h1>
-    <h1 className="heading"> {count} </h1>
-  
+
+    <div className="container">
+    <button className="btn" onClick = {IncNum}>+</button>
+    <h1 className="heading1"> {count} </h1>
  <button   className="btn1" onClick = {DncNum}>-</button>
- <button   className="btn" onClick = {IncNum}>+</button>
+    </div>
+ 
     </>
   );
 }

@@ -21,11 +21,11 @@ const DncNum = ()=>{
     <h1 className="heading">Hello I am Counter</h1>
 
     <div className="container">
-    <button className="btn" onClick = {IncNum}>+</button>
+    <button className="btn" onClick = {DncNum}>-</button>
     <h1 className="heading1"> {count} </h1>
- <button   className="btn1" onClick = {DncNum}>-</button>
+ <button   className="btn1" onClick = {IncNum}>+</button>
     </div>
- 
+ <h2 className="count">The counter value: {count}</h2>
     </>
   );
 }
